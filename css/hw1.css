@@ -1,0 +1,119 @@
+body{
+    padding: 5px;
+    margin: 7px;
+}
+header{
+    background: rgba(240, 97, 40,1);
+    background-image: url("../images/flywheel.jpg");
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 40px;
+ 
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 65px;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  sans-serif;
+    color: rgba(232, 241, 231,1);
+}
+h2{
+    color: rgba(67, 2, 70,1);
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    text-align: center;
+}
+nav a{
+    display: inline-block;
+    border-radius: 7px;
+    padding: 10px 75px;
+    margin: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color:#000000;
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255,1) 20%,#FFFFFF 20%, #ffffff);
+
+}
+
+.active{
+    font-weight: bolder;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: rgb(255, 251, 2);
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0,1) 20%,#000000 20%, #000000);
+}
+nav a:hover{
+    color: rgb(255, 251, 2);
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0,1) 20%,#000000 20%, #000000);
+
+}
+
+aside{
+    display: inline-block;
+    background-color: #f3ba4f;
+    width: 22%;
+    height: 32%;
+    border: solid black 1px;
+}
+.left img{
+
+    width: 80%;
+    display:block;  
+    margin: 8%;
+    border: solid rgb(0, 0, 2) 2px;
+}
+.right{
+    float: right; /* if this line not used the text content goes few pixels below header*/
+    width: 75%; 
+    font-size: 18px;
+}
+p{
+    color: rgba(31, 28, 28,1);
+    font-size: 20px;
+}
+table{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    font-weight: lighter;
+    line-height: 170%;
+    width: 80%;
+    margin: 0 auto;
+}
+th{
+    background-image: linear-gradient(rgb(3, 41, 122), rgb(24, 82, 241) 50%);
+    border: solid rgb(7, 21, 148) ;
+    border-radius: 5px 5px 0px 0px;
+    border-width: 1px 1px 2px 1px;
+    color: rgb(255,255,255);
+    line-height: 40px;
+}
+.right tr td{
+    opacity: 0.85;
+    background-color: rgb(149, 235, 241);
+    line-height: 30px;
+    border-radius: 3px;
+}
+
+td{
+    text-align: center;
+}
+th:first-child{
+    text-align: left;
+}
+td:first-child{
+    text-align: left;
+}
+.right tr td:hover{
+    opacity: 1;
+    padding: 1.5%;
+    font-weight: lighter;
+    color: rgb(238, 241, 6);
+    background-color: rgb(0,0,0);
+    border-radius: 8px;
+}
